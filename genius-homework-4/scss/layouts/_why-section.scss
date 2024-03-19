@@ -1,0 +1,24 @@
+.why {
+
+    &-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 24px;
+
+
+        @media screen and (min-width: $bp-desktop) {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 56px;
+        }
+    }
+
+    &__title {
+
+        padding-top: 100px;
+        /* gap: 48px; */
+    }
+}

@@ -1,0 +1,142 @@
+// fonts
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/play/v19/6ae84K2oVqwItm4TCpQy2lvQNTIQoQ.woff2) format('woff2');
+}
+
+/* general styles */
+
+@import './base';
+@import './scss/utils/variables';
+@import './scss/components/buttons';
+@import './scss/components/links';
+@import './scss/layouts/section';
+@import './scss/layouts/container';
+@import './scss/utils/texts';
+@import './scss/layouts/header';
+@import './scss/layouts/hero-section';
+@import './scss/layouts/about-section';
+@import './scss/layouts/formats-section';
+@import './scss/layouts/why-section';
+@import './scss/components/why-card';
+@import './scss/components/format-card';
+@import './scss/components/carousel_button';
+@import './scss/components/pagination';
+@import './scss/layouts/contact-section';
+@import './scss/components/input';
+@import './scss/layouts/form-terms';
+@import './scss/layouts/footer';
+@import './scss/layouts/modal';
+@import './scss/utils/mixins';
+@import './scss/utils/texts';
+@import'./scss/layouts/mobile-menu';
+
+
+
+
+
+
+/* img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+   
+    object-fit: cover;
+} */
+
+/* links */
+
+
+/* section styles */
+
+
+
+
+/* text */
+
+
+
+/* header */
+
+
+
+
+/* .header__socials {
+    position: right;
+    display: flex;
+    justify-content: center;
+    color: var(--color-primary-dark-blue);
+
+} */
+
+/* hero-section */
+
+
+
+
+/* about-section_ */
+
+
+
+
+
+
+
+/* introduction section */
+
+/* why are we section */
+
+
+
+
+/* why-section */
+
+
+
+
+
+
+
+
+
+/* carousel */
+
+
+
+
+
+
+/* pagination */
+
+
+
+
+
+/* contact section  */
+
+
+
+
+/* input */
+
+
+
+/* footer */
+
+
+
+
+
+
+/* backdrop */

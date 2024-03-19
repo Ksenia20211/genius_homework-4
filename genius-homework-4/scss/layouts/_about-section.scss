@@ -1,0 +1,149 @@
+.about-section {
+    &__container {
+        padding-left: 22px;
+
+        @media screen and (min-width: $bp-desktop) {
+            display: flex;
+
+            flex-direction: row;
+            gap: 24px;
+            padding-bottom: 100px;
+            padding-top: 0;
+
+            position: relative;
+        }
+    }
+
+
+    &__text {
+        max-width: 709px;
+        display: block;
+    }
+
+
+
+
+    &__image1 {
+        display: none;
+
+        @media screen and (min-width: $bp-desktop) {
+            border-radius: 50%;
+            display: block;
+        }
+
+
+    }
+
+    &__image2 {
+        display: none;
+
+        @media screen and (min-width: $bp-desktop) {
+
+            position: absolute;
+            right: 0;
+            border-radius: 50%;
+            display: block;
+        }
+
+
+    }
+
+
+    &__star1 {
+        display: none;
+
+
+        @media screen and (min-width: $bp-desktop) {
+            position: absolute;
+            Width: 16px;
+            Height: 16px;
+            Top: 257px;
+            Left: 1249px;
+            rotate: 22.91°;
+            display: block;
+            transition-property: background-color;
+            transition-duration: 1s;
+            animation: spin 1s infinite linear;
+
+
+            &:hover {
+                background-color: greenyellow;
+            }
+        }
+    }
+
+    &__star2 {
+        display: none;
+
+        @media screen and (min-width: $bp-desktop) {
+            position: absolute;
+            Width: 40px;
+            Height: 40px;
+            Top: 14px;
+            Left: 1268px;
+            rotate: -30°;
+            display: block;
+            animation: spin 1s infinite linear;
+
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+    }
+
+
+
+
+    &__star3 {
+        display: none;
+
+        @media screen and (min-width: $bp-desktop) {
+            position: absolute;
+            Width: 64px;
+            Height: 64px;
+            Top: 350px;
+            Left: 894px;
+            rotate: 30°;
+            display: flex;
+            animation: spin 1s infinite linear;
+
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+    }
+
+    &__star3-mobile {
+
+        position: absolute;
+        Width: 64px;
+        Height: 64px;
+        Top: 1362px;
+        Left: 683px;
+        rotate: 30°;
+        display: flex;
+        animation: spin 1s infinite linear;
+
+        &:hover {
+            animation-play-state: paused;
+        }
+
+        @media screen and (min-width: $bp-desktop) {
+            display: none;
+
+
+        }
+    }
+
+
+
+    @keyframes spin {
+        0% {
+            transform: rotate(0);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.format-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 444px;
+    padding: 24px;
+    background: linear-gradient(180.05deg, rgba(1, 28, 68, 0) 48.53%, rgba(1, 28, 68, 0.725825) 84.61%, #011C44 101.39%);
+    border-radius: 120px 4px;
+    overflow: hidden;
+    transition: 0.5s;
+    transition: transform 0.3s;
+
+    &:hover {
+        transform: scale(1.05);
+
+    }
+
+
+
+
+
+    &__image {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        &:hover {
+            background: linear-gradient(180.05deg, rgba(1, 28, 68, 0) 48.53%, rgba(1, 28, 68, 0.725825) 84.61%, #011C44 101.39%);
+
+
+        }
+    }
+
+
+
+
+    &__title {
+        font-size: 24px;
+        font-weight: 600;
+        color: var(--color-primary-white);
+    }
+}

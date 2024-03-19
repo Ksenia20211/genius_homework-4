@@ -1,0 +1,31 @@
+.button {
+    display: block;
+    padding: 10px 24px;
+    color: var(--color-primary-white);
+    font-size: 18px;
+    font-weight: 600;
+    background-color: var(--color-primary-blue);
+    border: 2px solid var(--color-primary-blue);
+    border-radius: 32px;
+    cursor: pointer;
+    font-family: 'Roboto',
+        sans-serif;
+    font-style: normal;
+    line-height: 21px;
+
+
+    &:hover {
+        color: var(--color-primary-white);
+        background-color: transparent;
+    }
+}
+
+.visually-hidden {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+
+}

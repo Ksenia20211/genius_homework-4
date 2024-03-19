@@ -1,0 +1,44 @@
+.why-card {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+
+    flex-direction: column;
+
+    justify-content: center;
+    height: 181px;
+    width: 316px;
+    padding: 24px;
+    background-color: #FFFFFF;
+
+    border-radius: 32px;
+    overflow: hidden;
+    box-shadow: 0px 4px 4px 0px rgba(168, 198, 245, 0.38);
+    transition: transform 0.2s;
+    gap: 12px;
+
+
+
+
+    &__image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 48px;
+        height: 48px;
+        gap: 8px;
+
+
+    }
+
+    &__text {
+        font-size: 18px;
+        text-align: center;
+        font-weight: 400;
+        line-height: 24px;
+        font-family: 'Roboto';
+        font-style: normal;
+        color: var(--color-black);
+    }
+}

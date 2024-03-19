@@ -1,0 +1,29 @@
+.section {
+    padding: 100px 0;
+
+    &-title.accent {
+        color: var(--color-brand-dark);
+        font-size: 64px;
+        font-weight: 900;
+        font-weight: 1.3;
+
+    }
+
+
+    &__title {
+        font-family: 'Play',
+            sans-serif;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 1.1;
+        color: var(--color-primary-dark-blue);
+
+
+
+
+        &--centered {
+            text-align: center;
+        }
+
+    }
+}
